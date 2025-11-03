@@ -1,4 +1,4 @@
-# Max Index exercise
+# Max
 # Ivonne Mendoza
 # ivonne@imendoza.io
 
