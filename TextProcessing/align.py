@@ -1,11 +1,20 @@
 # Align
-# Ivonne Mendoza
-# ivonne@imendoza.io
-# https://docs.vultr.com/python/standard-library/str/rjust
-
+# name: Ivonne Mendoza email: ivonne@imendoza.io
+# This code aligns some text to the right
+# source: https://docs.vultr.com/python/standard-library/str/rjust
 
 
 def right_align(text:str)->str:
+    """
+    This function takes a left align string and returns the same text but aligned to the right.
+    Example:
+    This text is left aligned.
+    Lets change that.
+
+    return:
+    This text is left aligned.
+         Lets change that.
+    """
     # Split by newline
     splitted_by_newline = text.split("\n")
    # Accumulator to register the max len
