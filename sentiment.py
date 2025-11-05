@@ -21,13 +21,13 @@ def load_words(filename)->list:
 
 def load_positive_words()->list:
     """
-    This functions returns a list of positive words from a text file
+    This function returns a list of positive words from a text file
     """
     return load_words("./pos_words.txt")
 
 def load_negative_words()->list:
     """
-    This functions returns a list of negative words from a text file
+    This function returns a list of negative words from a text file
     """
     return load_words("./neg_words.txt")
 
